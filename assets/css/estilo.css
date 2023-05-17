@@ -1,0 +1,245 @@
+/* Estilo Geral */
+@import url('https://fonts.cdnfonts.com/css/lovelo');
+@import url('https://fonts.cdnfonts.com/css/glacial-indifference');
+                
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Glacial Indifference', Arial, Helvetica, sans-serif;
+}
+
+i{
+    margin-right: 15px;
+}
+
+li{
+    list-style: none;
+    margin-top: 3px;
+}
+
+/* conteúdo principal */
+
+.container__principal{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    max-width: 1400px;
+
+}
+
+.container__grid{
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    box-shadow: 3px 3px 20px;
+}
+
+/* coluna esquerda */
+
+.coluna__esquerda{
+    width: 320px;
+    background-color: #0d2337;
+}
+
+.bloco-esquerda{
+    margin: 0 25px;
+    color: white;
+}
+
+.bloco-esquerda p{
+    margin: 10px 0 10px 0;
+}
+
+.bloco-esquerda hr{
+    border-color: #CEFF90;
+}
+
+.campo-nome{
+    display: flex;
+    align-items: center;
+    height: 250px;
+    font-size: 40px;                         
+}
+
+.campo-nome h2{
+    font-family: 'Lovelo', sans-serif;
+    font-weight: 900;
+}
+
+.campo-info h2{
+    margin-top: 10px;
+}
+
+.campo-endereco{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contato a{
+    color: white;
+}
+
+.barra-progresso{
+    width: 100%;
+    height: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.barra-progresso div{
+    text-align: center;
+    width: 24%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: #17A2B8;
+}
+
+.campo-skills p{
+    margin-bottom: 3px;
+}
+
+.campo-idioma{
+    margin-top: 15px;
+}
+
+/* coluna direita */
+
+.coluna__direita{
+    width: 580px;
+}
+
+.coluna__direita p{
+    color: #808080;
+    font-style: italic;
+}
+
+.coluna__direita h3{
+    margin-bottom: 5px;
+    color: #075271;
+}
+
+.coluna__direita h5{
+    margin-bottom: 5px;
+    color: #6B85B6;
+}
+
+.bloco-resumo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 25px;
+    height: 200px;
+}
+
+.campo-resumo{
+    display: flex;
+    align-items: center;
+    width: 480px;
+    height: 100%;
+    border-bottom: 2px solid #CEFF90;
+}
+
+.bloco-experiencia{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 360px;
+    margin-right: 25px;
+}
+
+.campo-experiencia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 480px;
+    height: 100%;
+    border-bottom: 2px solid #CEFF90;
+}
+
+.atacadao{
+    margin-bottom: 10px;
+}
+
+.itaguacu{
+    margin-bottom: 10px;
+}
+
+.bloco-educacao{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 260px;
+    margin-right: 25px;
+}
+
+
+.campo-educacao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 480px;
+    height: 100%;
+    border-bottom: 2px solid #CEFF90;
+    margin-left: 5px;
+}
+
+.unicesumar{
+    margin-bottom: 10px;
+}
+
+.bloco-certificado{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 220px;
+    margin-right: 25px;
+}
+
+.campo-certificado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 480px;
+    height: 100%;
+    border-bottom: 2px solid #CEFF90;
+    margin-left: 5px;
+}
+
+.campo-certificado li{
+    margin-bottom: 5px;
+}
+
+.indicador{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    writing-mode: vertical-rl;
+    color: white;
+    width: 50px;
+    height: 180px;
+    background-color: #075271;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    background-color: #075271;;
+    color: white;
+    padding: 10px;
+}
+
+.redes h3{
+    margin-bottom: 5px;
+}
+
+.links i{
+    color: white;
+}
